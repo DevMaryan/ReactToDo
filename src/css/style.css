@@ -1,0 +1,46 @@
+*{
+    font-family:helvetica;
+}
+ol li{
+    color:#666;
+}
+#app{
+    margin: 0 auto;
+    width:400px;
+    margin-top:30vh;
+    background-color:#fafafa;
+    padding:1rem;
+    border-radius:3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.inpt{
+    border-radius:3px 0px 0px 3px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:1px solid #ddd;
+    padding:0.5rem;
+    width:300px;
+}
+.btn-add{
+    cursor:pointer;
+    height:34px;
+    border:0;
+    padding:0rem 1rem;
+    border-radius:0px 3px 3px 0px;
+    background-color:#339CFF;
+    color:#FFF;
+    margin-left:-2px;
+}
+.btn-add:hover{
+    opacity:0.9;
+}
+.btn-trash{
+    border:0;
+    background:transparent;
+    color:#339CFF;
+    opacity:0.3;
+    cursor:pointer;
+}
+.btn-trash:hover{
+    opacity:1;
+}
